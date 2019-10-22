@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 
 body {
-    background-color: aqua;
+    background-color: #55ffff;
     font-family: "Ubuntu", sans-serif;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+button:focus {
+    outline: 0;
 }
 
 button {
@@ -14,5 +22,30 @@ button {
 
 button:hover {
     font-family: inherit;
-    background-color: lawngreen;
+    background-color: #FFFF55;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    color: #FFFF55;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
