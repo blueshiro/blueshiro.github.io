@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 
 body {
-    background-color: #55ffff;
+    background-color: #77216F;
     font-family: "Ubuntu", sans-serif;
+    color: white;
 }
 
 button::-moz-focus-inner {
@@ -17,12 +18,19 @@ button {
     font-family: inherit;
     font-size: large;
     padding: 5px;
-    background-color: lavender;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    padding: 0.8%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 5px;
 }
 
 button:hover {
     font-family: inherit;
-    background-color: #FFFF55;
+    background-color: #E95420;
 }
 
 h1 {
@@ -30,7 +38,7 @@ h1 {
 }
 
 hr {
-    border-color: #FFFF55;
+    border-color: #E95420;
     border-style: solid;
 }
 
@@ -42,11 +50,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    border-radius: 10px;
+    ;
 }
